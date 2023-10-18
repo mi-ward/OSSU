@@ -1,0 +1,6 @@
+
+{
+  "title":"Lecture 1",
+  "content":" Shell vs. Editor You run the code below from the editor.\n`type(5)` `print(3.0-1)` What\u0026rsquo;s printed?\n\u0026nbsp;int\u0026nbsp; close \u0026nbsp;2.0\u0026nbsp; check \u0026nbsp;int then 2.0\u0026nbsp; close \u0026nbsp;nothing\u0026nbsp; close Check \u0026emsp; Show Solution View video page Download video Download transcript Python vs. Math Which is allowed in Python?\n\u0026nbsp;x + y = 2\u0026nbsp; close \u0026nbsp;x\\*x = 2\u0026nbsp; close \u0026nbsp;2 = x\u0026nbsp; close \u0026nbsp;xy = 2\u0026nbsp; check \u0026nbsp;None of the Above\u0026nbsp; close Check \u0026emsp; Show Solution View video page Download video Download transcript Bindings You run the code below from the file editor.\n`usa_gold = 46` `uk_gold = 27` `romania_gold = 1` `total_gold = usa_gold + uk_gold + romania_gold` `print(total_gold)` `romania_gold += 1` `print(total_gold)` What\u0026rsquo;s printed?\n\u0026nbsp;74 then 74\u0026nbsp; check \u0026nbsp;74 then 75\u0026nbsp; close \u0026nbsp;74\u0026nbsp; close \u0026nbsp;75\u0026nbsp; close Check \u0026emsp; Show Solution View video page Download video Download transcript "}
+
+

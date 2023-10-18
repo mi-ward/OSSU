@@ -1,0 +1,12 @@
+{
+  "title":"Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning",
+  "description": "",
+  "file": null,
+  "learning_resource_types": ["Lecture Videos"],
+  "resource_type": "Video",
+  "file_type": null,
+  "youtube_key":  "RvRKT-jXvko",
+  "captions_file": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/87450a3bb883546da3cda15e422b259f_RvRKT-jXvko.vtt",
+  "transcript_file": "/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/a9df4249541a97c3506418f1e555c0c7_RvRKT-jXvko.pdf",
+  "thumbnail_file": "https://img.youtube.com/vi/RvRKT-jXvko/default.jpg",
+  "archive_url": "https://archive.org/download/MIT6.0001F16/MIT6_0001F16_Lecture_05_300k.mp4"}

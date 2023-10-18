@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Notes on MIT OpenCourseWare</title>
+    <link>/resources/lecture-notes/</link>
+    <description>Recent content in Lecture Notes on MIT OpenCourseWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/resources/lecture-notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>lec1.py</title>
+      <link>/resources/lec1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lec1/data.json</guid>
+      <description>This is special file Code for Lecture 1.</description>
+    </item>
+    
+    <item>
+      <title>lec10_complexity_part1.py</title>
+      <link>/resources/lec10_complexity_part1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lec10_complexity_part1/data.json</guid>
+      <description>This is special file Code for Lecture 10.</description>
+    </item>
+    
+    <item>
+      <title>lec11_complexity_part2.py</title>
+      <link>/resources/lec11_complexity_part2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lec11_complexity_part2/data.json</guid>
+      <description>This is special file Code for Lecture 11.</description>
+    </item>
+    
+    <item>
+      <title>lec12_sorting.py</title>
+      <link>/resources/lec12_sorting/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lec12_sorting/data.json</guid>
+      <description>This is special file Code for Lecture 12.</description>
+    </item>
+    
+    <item>
+      <title>lec2_branch_loops.py</title>
+      <link>/resources/lec2_branch_loops/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lec2_branch_loops/data.json</guid>
+      <description>This is special file Code for Lecture 2.</description>
+    </item>
+    
+    <item>
+      <title>lec3_strings_algos.py</title>
+      <link>/resources/lec3_strings_algos/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lec3_strings_algos/data.json</guid>
+      <description>This is special file Code for Lecture 3.</description>
+    </item>
+    
+    <item>
+      <title>lec4_functions.py</title>
+      <link>/resources/lec4_functions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lec4_functions/data.json</guid>
+      <description>This is special file Code for Lecture 4.</description>
+    </item>
+    
+    <item>
+      <title>lec5_tuples_lists.py</title>
+      <link>/resources/lec5_tuples_lists/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lec5_tuples_lists/data.json</guid>
+      <description>This is special file Code for Lecture 5.</description>
+    </item>
+    
+    <item>
+      <title>lec6_recursion_dictionaries.py</title>
+      <link>/resources/lec6_recursion_dictionaries/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lec6_recursion_dictionaries/data.json</guid>
+      <description>This is special file Code for Lecture 6.</description>
+    </item>
+    
+    <item>
+      <title>lec7_debug_except.py</title>
+      <link>/resources/lec7_debug_except/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lec7_debug_except/data.json</guid>
+      <description>This is special file Code for Lecture 7.</description>
+    </item>
+    
+    <item>
+      <title>lec8_classes.py</title>
+      <link>/resources/lec8_classes/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lec8_classes/data.json</guid>
+      <description>This is special file Code for Lecture 8.</description>
+    </item>
+    
+    <item>
+      <title>lec9_inheritance.py</title>
+      <link>/resources/lec9_inheritance/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lec9_inheritance/data.json</guid>
+      <description>This is special file Code for Lecture 9.</description>
+    </item>
+    
+    <item>
+      <title>Lecture Slides and Code</title>
+      <link>/pages/lecture-slides-code/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/pages/lecture-slides-code/data.json</guid>
+      <description>The slides and code from each lecture are available below.
+SES # TOPICS LECTURE SLIDES LECTURE CODES 1 What is computation? Slides for Lecture 1 (PDF) Code for Lecture 1 (PY) 2 Branching and Iteration Slides for Lecture 2 (PDF) Code for Lecture 2 (PY) 3 String Manipulation, Guess and Check, Approximations, Bisection Slides for Lecture 3 (PDF) Code for Lecture 3 (PY) 4 Decomposition, Abstractions, Functions Slides for Lecture 4 (PDF 1.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_0001F16_Branching, Iteration</title>
+      <link>/resources/mit6_0001f16_lec2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_0001f16_lec2/data.json</guid>
+      <description>This file contains information regarding lecture 2 notes.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_0001F16_Decomposition, Abstraction, Functions</title>
+      <link>/resources/mit6_0001f16_lec4/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_0001f16_lec4/data.json</guid>
+      <description>This file contains information regarding lecture 4 notes.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_0001F16_Object Oriented Programming</title>
+      <link>/resources/mit6_0001f16_lec8/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_0001f16_lec8/data.json</guid>
+      <description>This file contains information regarding lecture 8 notes.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_0001F16_Python Classes and Inheritance</title>
+      <link>/resources/mit6_0001f16_lec9/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_0001f16_lec9/data.json</guid>
+      <description>This file contains information regarding lecture 9 notes.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_0001F16_Recursion, Dictionaries</title>
+      <link>/resources/mit6_0001f16_lec6/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_0001f16_lec6/data.json</guid>
+      <description>This file contains information regarding lecture 6 notes.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_0001F16_Searching and Sorting Algorithms</title>
+      <link>/resources/mit6_0001f16_lec12/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_0001f16_lec12/data.json</guid>
+      <description>This file contains information regarding lecture 12 notes.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_0001F16_String Manipulation, Guess-and-Check, Approximations, Bisection</title>
+      <link>/resources/mit6_0001f16_lec3/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_0001f16_lec3/data.json</guid>
+      <description>This file contains information regarding lecture 3 notes.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_0001F16_Testing, Debugging, Exceptions, Assertions</title>
+      <link>/resources/mit6_0001f16_lec7/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_0001f16_lec7/data.json</guid>
+      <description>This file contains information regarding lecture 7 notes.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_0001F16_Tuples, Lists, Aliasing, Mutability, Cloning</title>
+      <link>/resources/mit6_0001f16_lec5/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_0001f16_lec5/data.json</guid>
+      <description>This file contains information regarding lecture 5 notes.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_0001F16_Understanding Program Efficiency: 2</title>
+      <link>/resources/mit6_0001f16_lec11/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_0001f16_lec11/data.json</guid>
+      <description>This file contains information regarding lecture 11 notes.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_0001F16_Understanding Program Efficiency:1</title>
+      <link>/resources/mit6_0001f16_lec10/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_0001f16_lec10/data.json</guid>
+      <description>This file contains information regarding lecture 10 notes.</description>
+    </item>
+    
+    <item>
+      <title>MIT6_0001F16_Welcome</title>
+      <link>/resources/mit6_0001f16_lec1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/mit6_0001f16_lec1/data.json</guid>
+      <description>This file contains information regarding lecture 1 notes.</description>
+    </item>
+    
+  </channel>
+</rss>

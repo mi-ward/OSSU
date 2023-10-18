@@ -1,0 +1,50 @@
+Search Module
+In this module, we will expand on generative recursion and work on search problems, which are a category of problem solving that can be solved by generating the space of all possible paths from a given state and traversing that space until a solution is found. We will see that it is quite easy to solve Sudoku puzzles this way.
+
+The Sudoku solver and similar search functions end up having a number of helper functions. So the material in this module will take longer than most previous modules- working through the videos and practice materials for this module should take approximately 8-9 hours of dedicated time to complete.
+
+Learning Goals
+- Be able to identify whether a function should be designed using domain knowledge, structural recursion, built-in abstract list functions or generative recursion.
+- Be able to design a backtracking generative search.
+
+
+1. Introduction
+Over the next several lectures, we will design a program based on the idea of problem solving by search. Our program will generate a space of all possible paths from an initial puzzle state and then search that space to find a solution.
+
+There is no starter file for this video.
+
+2. The basic terminology and rules of Sudoku.
+
+
+3. In this video, we'll go through the data definitions in the starter file.
+  The starter file for this video is sudoku-starter.rkt
+
+4. In this video, we'll go through the data definitions in the starter file. The starter file for this video is sudoku-starter.rkt
+
+5. Overview of using search to solve a Sudoku puzzle. There is no starter file for this video.
+
+6. The one new design technique required for the Sudoku solver is template blending, 
+ -- in which we combine several different kinds of templates all of which contribute to the backbone of a function (or functions). 
+ -- The starter file for this video is sudoku-starter.rkt
+
+7. Two wish list entries that accompany the solve function from the previous video.
+ -- The starter file for this video is sudoku-v1.rkt
+
+ -- Before moving on to the next video, you can start working on these two functions:
+ -- ;; Board -> Boolean
+ -- ;; produce true if board is solved
+ -- ;; ASSUME: board is valid so it is solved if it is full
+ -- ;; !!!
+ -- (define (solved? bd) false)   ;stub
+
+ -- ;; Board -> (listof Board)
+ -- ;; produce list of valid next boards from board
+ -- ;; finds first empty square, fills it with Natural[1, 9], keeps only valid boards
+ -- ;; !!!
+ -- (define (next-boards bd) empty)   ;stub
+
+ 8. Working through the wish list. The starter file for this video is sudoku-v2.rkt
+
+ 9. The valid-board? function is perhaps the single most difficult function in the course so far. 
+  -- Or maybe it's just the longest, because following the recipes takes us to a solution relatively easily.
+  -- The starter file for this video is sudoku-v4.rkt

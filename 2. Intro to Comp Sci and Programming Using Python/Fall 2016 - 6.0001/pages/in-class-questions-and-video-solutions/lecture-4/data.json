@@ -1,0 +1,6 @@
+
+{
+  "title":"Lecture 4",
+  "content":" Function Calls How many total lines of output will show up if you run the code below?\ndef add(x, y):\rreturn x+y\rdef mult(x, y):\rprint(x*y)\radd(1,2)\rprint(add(2,3))\rmult(3,4)\rprint(mult(4,5)) \u0026nbsp;0\u0026nbsp; close \u0026nbsp;2\u0026nbsp; close \u0026nbsp;4\u0026nbsp; check \u0026nbsp;5\u0026nbsp; close Check \u0026emsp; Show Solution View video page Download video Download transcript Functions as Arguments What does the code below print?\ndef sq(func, x):\ry = x**2\rreturn func(y)\rdef f(x):\rreturn x**2\rcalc = sq(f, 2)\rprint(calc) \u0026nbsp;4\u0026nbsp; close \u0026nbsp;8\u0026nbsp; close \u0026nbsp;16\u0026nbsp; check \u0026nbsp;nothing, it will show an error\u0026nbsp; close Check \u0026emsp; Show Solution View video page Download video Download transcript "}
+
+

@@ -1,0 +1,35 @@
+(+ 3 4) = 3 + 4
+(* 3 4) = 3 * 4
+(/ 3 4) = 3 / 4
+
+(sqr 3) = 3 ^ 2
+(sqrt 16) = square root of 16 
+; - Comments (go at start of line)
+Comment all highlight lines - in menu 'Racket'
+Comment box - from menu, lets you put everything in the box in comments
+
+(* 3 4) -> Primitive call
+-- * -> operater
+-- 3 and 4 --> operands
+Evaluation proceeds from Left to Right and Inside to Out
+
+### strings
+(string-append 'string' 'string2') -> 'stringstring2'
+(string-length 'string) -> 6
+(substring 'string' 2 4) -> 'ri' _like python_
+
+### images
+(require htdp/image)
+(circle 10 'solid' 'red') - circle image
+(rectangle 10 10 'outline' blue) - rectangle image
+(text 'string' 24 'yellow) -> yellow text, font size 24
+(above  (circle 10 'solid' 'red') - 3 circles stacked
+        (circle 10 'solid' 'red')
+        (circle 10 'solid' 'red'))
+(beside ...) -- 3 circles beside
+
+###functions and variables
+(define num 7) -> num = 7
+(define (num_add x) (+ x x)) -> 
+        def num_add(x): 
+                x + x

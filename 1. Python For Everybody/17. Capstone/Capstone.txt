@@ -1,0 +1,131 @@
+First you will spider 100 pages from http://python-data.dr-chuck.net/ 
+run the page rank algorithm and take some screen shots.
+ Then you will reset the spider process and spider 100 pages from any other
+  site on the Internet, run the page rank algorithm, and take some screen shots. 
+  You must score 80% or above to successfully complete this assignment.
+
+Page Rank
+First you will spider 100 pages from http://python-data.dr-chuck.net/ run the page rank algorithm and take some screen shots. Then you will reset the spider process and spider 100 pages from any other site on the Internet, run the page rank algorithm, and take some screen shots.
+
+Don't take off points for little mistakes. If they seem to have done the assignment give them full credit. Feel free to make suggestions if there are small mistakes. Please keep your comments positive and useful. The course staff will assign the last 30% of the grade and it may take a few days to get graded.
+
+Please Upload Your Submission:
+
+Screenshot of spdump.py output in command line after crawling 100 pages of python-data.dr-chuck.net including the number of rows retrieved (close to 100). You must run sprank.py before spdump.py in order to show the page rankings.No file chosen
+(Please use PNG or JPG files 1024KB max)
+
+Screenshot showing force.html after you open it in a browser to produce the visualization restricted to 25 nodes for python-data.dr-chuck.net. You must show the starting url.No file chosen
+(Please use PNG or JPG files 1024KB max)
+
+Screenshot of spdump.py output in command line after crawling 100 pages of a website of your choosing (other than dr. Chuck's website) including the number of rows retrieved (close to 100). You must run sprank.py before spdump.py in order to show the page rankings.No file chosen
+(Please use PNG or JPG files 1024KB max)
+
+Screenshot of force.html after you open it in a browser to produce the visualization restricted to 25 nodes for your chosen website. You must show the starting url.No file chosen
+(Please use PNG or JPG files 1024KB max)
+
+
+Welcome Michael Ward from Capstone: Retrieving, Processing, and Visualizing Data with Python
+
+Mailing List Data - Part I
+In this assignment you will download some of the mailing list data from http://mbox.dr-chuck.net/ and run the data cleaning / modeling process and take some screen shots. All screenshots should use the same data set.
+
+Don't take off points for little mistakes. If they seem to have done the assignment give them full credit. Feel free to make suggestions if there are small mistakes. Please keep your comments positive and useful. The course staff will assign the last 30% of the grade and it make take a few days to get graded.
+
+Please Upload Your Submission:
+
+A screen shot of your SQLiteBrowser showing messages downloaded from mbox.dr-chuck.net into the content.sqlite database including all data fields and the bottom of sqlite browser.No file chosen
+(Please use PNG or JPG files 1024KB max)
+
+A screen shot of you running the gmodel.py application to produce the index.sqlite database. Please include the allsenders line at the beginning of the output. Please do not include code in the screenshot.No file chosen
+(Please use PNG or JPG files 1024KB max)
+
+A screen shot of your SQLiteBrowser showing messages in the index.sqlite database after the gmodel.py has executed including all data fields and the bottom of sqlite browser..No file chosen
+(Please use PNG or JPG files 1024KB max)
+
+A screen shot of you running the gbasic.py program to compute basic histogram data on the messages you have retrieved. Please include the "How many to dump" and "Loaded messages" lines in the output. For a dump number, please use a number less than 25. Do not include code in the screenshot.No file chosen
+(Please use PNG or JPG files 1024KB max)
+
+Mailing List Data - Part II
+In this assignment you will visualize the mailing list data you have downloaded from http://mbox.dr-chuck.net/ and take some screen shots. Important: You do not have to download all of the data. Gbasic.py must use a count greater than 300. You can run gmane multiple times to download more messages. It is completely acceptable to visualize a small subset of the data in the gbasic screenshot. For the gbasic screenshot show the lines for dump?, loaded messages=, and both sections for Top Email list participants & Email list organizations. ***For students in mainland China that can't access the Google API for the timeline, take a screenshot of gline.js open in your editor showing the numbers, dates of messages at the top. Please add a note to your assignment.***
+
+Don't take off points for little mistakes. If they seem to have done the assignment give them full credit. Feel free to make suggestions if there are small mistakes. Please keep your comments positive and useful. The course staff will assign the last 30% of the grade and it may take a few days to get graded.
+
+Please Upload Your Submission:
+
+A screen shot of you running the gbasic.py program to compute basic histogram data on the messages you have retrieved.No file chosen
+(Please use PNG or JPG files 1024KB max)
+
+A screen shot of word cloud visualization for the messages you have retrieved.No file chosen
+(Please use PNG or JPG files 1024KB max)
+
+A screen shot of time line visualization for the messages you have retrieved showing messages per month.No file chosen
+(Please use PNG or JPG files 1024KB max)
+
+Optional Challenge: Change the gline.py program to show the message count by year instead of by month and take a screen shot of the by year visualization. You can switch from a by-month to a by-year visualization by changing only a few lines in gline.py. The puzzle is to figure out the smallest change to accomplish the change. If you do not want to do this optional challenge - just upload the above image a second time.No file chosen
+(Please use PNG or JPG files 1024KB max)
+
+
+
+----- Data sets-----
+  This is a set of data sources curated by the instructional staff.  Feel free to suggest new data sources in the forums.  The initial list was provided by Kevyn Collins-Thomson from the University of Michigan School of Information.
+
+Long general-purpose list of datasets:
+
+https://vincentarelbundock.github.io/Rdatasets/datasets.html
+
+
+The Academic Torrents site has a growing number of datasets, including a few text collections that might be of interest (Wikipedia, email, twitter, academic, etc.) for current or future projects.
+
+http://academictorrents.com/browse.php?cat=6
+
+Google Books n-gram corpus 
+
+external link: http://books.google.com/ngrams
+
+Dataset: external link: http://aws.amazon.com/datasets/8172056142375670
+
+Common Crawl: • Currently 6 billion Web documents (81 Tb) • Amazon S3 Public Data Set 
+
+http://aws.amazon.com/datasets/41740
+
+https://commoncrawl.atlassian.net/wiki/display/CRWL/About+the+Data+Set
+
+Award project using Common Crawl: http://norvigaward.github.io/entries.html
+
+Python example: http://www.freelancer.com/projects/Python-Data-Processing/Python-script-for-CommonCrawl.html
+
+Business/commercial data Yelp external link: 
+
+http://www.yelp.com/developers/documentation/v2/search_api
+
+Upcoming Deprecation of Yelp API v2 on June 30, 2018  (Posted by Yelp Jun 28, 2017)
+
+Internet Archive (huge, ever-growing archive of the Web going back to 1990s) external link: 
+
+http://archive.org/help/json.php
+
+WikiData: 
+
+https://www.wikidata.org/wiki/Wikidata:Main_Page
+
+World Food Facts
+
+http://world.openfoodfacts.org/data
+
+Data USA - a variety of census data
+
+https://datausa.io/
+
+Center for Disease Control - variety of data sets related to COVID
+
+https://data.cdc.gov/browse
+
+U.S. Government open data - datasets from 75 agencies and subagencies
+
+https://data.gov/
+
+NASA data portal - space and earth science
+
+https://data.nas.nasa.gov/
+
+https://data.nasa.gov/

@@ -1,0 +1,17 @@
+Systematic Program Design
+1. What do we want our program to do?
+2. How we create nice programs that fit together well and are easy to modify?
+
+Each Module is a series of extended lectures
+- really just you and I sitting at computer to work through design process
+- Best thing to do is type along, run the problem with the teacher
+
+At the end of each module is a set of practice problems and a quiz
+
+Techniques will be used with any other programming language in the future.
+
+This course uses BSL (Beginner Student Language)
+- easy to learn
+- easy to apply to design method
+- has all the core features we'll need
+

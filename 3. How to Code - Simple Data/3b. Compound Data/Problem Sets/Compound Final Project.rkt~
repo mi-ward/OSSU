@@ -1,0 +1,54 @@
+;; The first three lines of this file were inserted by DrRacket. They record metadata
+;; about the language level of this file in a form that our tools can easily process.
+#reader(lib "htdp-beginner-reader.ss" "lang")((modname |Compound Final Project|) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
+(require 2htdp/image)
+(require 2htdp/universe)
+
+;; space traveler
+;; block that moves around based on gradual speed increase
+
+
+;; Constants
+
+(define WIDTH 500)
+(define HEIGHT 500)
+(define MTS (empty-scene WIDTH HEIGHT))
+(define BLOCK (square 5 "solid" "red"))
+
+(define CTR-Y (/ HEIGHT 2))
+(define CTR-X (/ WIDTH 2))
+
+;; DATA
+(define-struct ship (x y dx dy))
+;; Ship is (make-ship Number[0, WIDTH], Number [0, HEIGHT], Number, Number)
+;; defines the x, y coordinates of the ship as well as the directional acceleration of the ship
+(define S1 (make-ship 0 0 0 0))
+(define S2 (make-ship 250 250 4 -1))
+
+(define (fn-for-ship s)
+  (... (ship-x)
+       (ship-y)
+       (ship-dx)
+       (ship-dy)))
+
+;; Template rules used:
+;;  - compound data: 4 fields - Number[0, WIDTH], Number [0, HEIGHT], Number, Number
+
+;; Functions
+; =============
+
+;; Ship is Ship
+;; start the ship with (main (make-ship CTR-X CTR-Y 0 0))
+;; displays the ship, allows movement with arrow keys, resets position with space bar
+(define (main s)
+  (big-bang s           ;; Ship
+    (on-tick  ...)      ;; Ship -> Ship
+    (to-draw  ...)      ;; Ship -> Image
+    (on-key   ...)))    ;; Ship KeyEvent -> Ship
+
+;; <no tests for main>
+
+;; Ship -> Ship
+
+     
+  

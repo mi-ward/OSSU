@@ -1,0 +1,51 @@
+xample Dr. Racket
+
+; 
+; PROBLEM:
+; 
+; Design a function that consumes a number and produces twice that number. 
+; Call your function double. Follow the HtDF recipe and leave behind commented 
+; out versions of the stub and template.
+; 
+
+
+;; Signature, purpose, stub
+; Number -> Number
+;Produce 2 times the given number
+
+; (define (double n) 0)  ;this is the stub
+
+;;Examples (wrapped in check-expect)
+(check-expect (double 3) 6)
+(check-expect (double 4) 8)
+(check-expect (double 4.2) (* 2 4.2))
+
+;;Inventory - template & constants
+
+;(define (double n) ;this is the template
+;  (... n))
+
+;;Code body
+(define (double n)  ;function body
+  (* 2 n))
+
+;;test and debug
+(double 2)
+
+Signature 
+Shows us what comes in and what goes out of a function
+
+Function - 
+should be short 1 line, succint description of what the function outputs given what it consumes
+
+Stub
+Function definition with
+- correct function name
+- correct number of parameters
+- produce dummy result of correct type
+
+##
+Examples - serve as unit tests, build off signature, function, and stub
+Inventory - a template for the function
+code body - just elaborate the examples and finish the function
+run the tests - run the tests

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lecture Videos on MIT OpenCourseWare</title>
+    <link>/resources/lecture-videos/</link>
+    <description>Recent content in Lecture Videos on MIT OpenCourseWare</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/resources/lecture-videos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lecture 1: What is Computation?</title>
+      <link>/resources/lecture-1-what-is-computation/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lecture-1-what-is-computation/data.json</guid>
+      <description>Description: In this lecture, Dr. Bell introduces the theory of computation and explains some aspects of computational thinking. Programming languages are discussed, with an emphasis on basic Python syntax and data structures.
+Instructor: Dr. Ana Bell</description>
+    </item>
+    
+    <item>
+      <title>Lecture 10: Understanding Program Efficiency, Part 1</title>
+      <link>/resources/lecture-10-understanding-program-efficiency-part-1/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lecture-10-understanding-program-efficiency-part-1/data.json</guid>
+      <description>Description: In this lecture, Prof. Grimson introduces algorithmic complexity, a rough measure of the efficiency of a program. He then discusses Big &amp;ldquo;Oh&amp;rdquo; notation and different complexity classes.
+Instructor: Prof. Eric Grimson</description>
+    </item>
+    
+    <item>
+      <title>Lecture 11: Understanding Program Efficiency, Part 2</title>
+      <link>/resources/lecture-11-understanding-program-efficiency-part-2/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lecture-11-understanding-program-efficiency-part-2/data.json</guid>
+      <description>Description: In this lecture, Prof. Grimson continues discussing different classes of algorithmic complexity, including logarithmic complexity, polynomial complexity, and exponential complexity.
+Instructor: Prof. Eric Grimson</description>
+    </item>
+    
+    <item>
+      <title>Lecture 12: Searching and Sorting</title>
+      <link>/resources/lecture-12-searching-and-sorting/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lecture-12-searching-and-sorting/data.json</guid>
+      <description>Description: In this lecture, Prof. Grimson explains basic search and sort algorithms, including linear search, bisection search, bubble sort, selection sort, and merge sort.
+Instructor: Prof. Eric Grimson</description>
+    </item>
+    
+    <item>
+      <title>Lecture 2: Branching and Iteration</title>
+      <link>/resources/lecture-2-branching-and-iteration/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lecture-2-branching-and-iteration/data.json</guid>
+      <description>Description: In this lecture, Dr. Bell introduces strings and indentation in Python, then discusses basic features of programmatic logic, such as branching, conditionals, iteration, and loops.
+Instructor: Dr. Ana Bell</description>
+    </item>
+    
+    <item>
+      <title>Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection</title>
+      <link>/resources/lecture-3-string-manipulation-guess-and-check-approximations-bisection/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lecture-3-string-manipulation-guess-and-check-approximations-bisection/data.json</guid>
+      <description>Description: In this lecture, Dr. Bell discusses string manipulation, guess-and-check algorithms, approximate solution methods, and bisection search.
+Instructor: Dr. Ana Bell</description>
+    </item>
+    
+    <item>
+      <title>Lecture 4: Decomposition, Abstraction, and Functions</title>
+      <link>/resources/lecture-4-decomposition-abstraction-and-functions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lecture-4-decomposition-abstraction-and-functions/data.json</guid>
+      <description>Description: In this lecture, Dr. Bell discusses program structuring, functions, specifications, scoping, and the difference between the &amp;ldquo;return&amp;rdquo; and &amp;ldquo;print&amp;rdquo; keywords in Python.
+Instructor: Dr. Ana Bell</description>
+    </item>
+    
+    <item>
+      <title>Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning</title>
+      <link>/resources/lecture-5-tuples-lists-aliasing-mutability-and-cloning/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lecture-5-tuples-lists-aliasing-mutability-and-cloning/data.json</guid>
+      <description>Description: In this lecture, Dr. Bell introduces compound data types, such as lists and tuples, and explains the concepts of aliasing, mutability, and cloning.
+Instructor: Dr. Ana Bell</description>
+    </item>
+    
+    <item>
+      <title>Lecture 6: Recursion and Dictionaries</title>
+      <link>/resources/lecture-6-recursion-and-dictionaries/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lecture-6-recursion-and-dictionaries/data.json</guid>
+      <description>Description: In this lecture, Prof. Grimson introduces the concept of recursion and the Python dictionary data type.
+Instructor: Prof. Eric Grimson</description>
+    </item>
+    
+    <item>
+      <title>Lecture 7: Testing, Debugging, Exceptions, and Assertions</title>
+      <link>/resources/lecture-7-testing-debugging-exceptions-and-assertions/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lecture-7-testing-debugging-exceptions-and-assertions/data.json</guid>
+      <description>Description: In this lecture, Dr. Bell discusses testing, debugging, and exceptions and assertion statements in Python.
+Instructor: Dr. Ana Bell</description>
+    </item>
+    
+    <item>
+      <title>Lecture 8: Object Oriented Programming</title>
+      <link>/resources/lecture-8-object-oriented-programming/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lecture-8-object-oriented-programming/data.json</guid>
+      <description>Description: In this lecture, Dr. Bell introduces Object Oriented Programming and discusses its representation in Python.
+Instructor: Dr. Ana Bell</description>
+    </item>
+    
+    <item>
+      <title>Lecture 9: Python Classes and Inheritance</title>
+      <link>/resources/lecture-9-python-classes-and-inheritance/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/resources/lecture-9-python-classes-and-inheritance/data.json</guid>
+      <description>Description: In this lecture, Dr. Bell continues the discussion of Object Oriented Programming in Python, with an emphasis on data control, inheritance, and subclasses.
+Instructor: Dr. Ana Bell</description>
+    </item>
+    
+    <item>
+      <title>Lecture Videos</title>
+      <link>/video_galleries/lecture-videos/data.json</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/video_galleries/lecture-videos/data.json</guid>
+      <description> Lecture 1: What is Computation? Lecture 2: Branching and Iteration Lecture 3: String Manipulation, Guess and Check, Approximations, Bisection Lecture 4: Decomposition, Abstraction, and Functions Lecture 5: Tuples, Lists, Aliasing, Mutability, and Cloning Lecture 6: Recursion and Dictionaries Lecture 7: Testing, Debugging, Exceptions, and Assertions Lecture 8: Object Oriented Programming Lecture 9: Python Classes and Inheritance Lecture 10: Understanding Program Efficiency, Part 1 Lecture 11: Understanding Program Efficiency, Part 2 Lecture 12: Searching and Sorting </description>
+    </item>
+    
+  </channel>
+</rss>

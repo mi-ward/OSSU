@@ -1,0 +1,29 @@
+Learning Goals
+1. Be able to use the How to Design Functions (HtDF) recipe to design functions that operate on primitive data.
+2. Be able to read a complete function design and identify its different elements.
+3. Be able to evaluate the different elements for clarity, simplicity and consistency with each other.
+4 Be able to evaluate the entire design for how well it solves the given problem.
+
+HtDF (How to Define Functions) CHECKLIST
+1. Signature, purpose, stub
+2. Define examples, wrap each in check-expect
+3. Template and inventory
+4. Code the function body
+5. Test and debug until correct
+
+Signature 
+Shows us what comes in and what goes out of a function
+
+Function - 
+should be short 1 line, succint description of what the function outputs given what it consumes
+
+Stub
+Function definition with
+- correct function name
+- correct number of parameters
+- produce dummy result of correct type
+
+Examples - serve as unit tests, build off signature, function, and stub
+Inventory - a template for the function
+code body - just elaborate the examples and finish the function
+run the tests - run the tests

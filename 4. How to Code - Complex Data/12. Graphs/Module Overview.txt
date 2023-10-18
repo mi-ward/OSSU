@@ -1,0 +1,33 @@
+Graphs Module
+Many forms of information naturally organize themselves into trees of various kinds. But what about transit maps, wiring diagrams, the internet, or even secret underground passages? Most of these have one or two key properties that make them be graphs instead of trees. One property is that there are more than one arrows that lead into some node, the other is that the arrows can form cycles.
+
+Once again, this module is in many ways an exercise in what you have already learned. We will start with this new form of information, then use HtDD and HtDF to quickly design powerful functions that operate on graphs.
+
+Working through the videos and practice materials for this module will take approximately 7-8 hours of dedicated time to complete.
+
+Learning Goals
+Be able to identify when domain information naturally forms a graph.
+Be able to write data definitions for graphs.
+Be able to construct cyclic data.
+Be able to design templates that operate on graphs, using accumulators to prevent chasing infinite cycles in the graph.
+Be able to design functions that operate on graphs.
+
+
+1. This video introduces graphs and their key properties to identify when domain information can be represented using graphs.
+ -- There is no starter file for this video.
+
+2. This video walks through the design of a data definition for representing graphs.
+ -- Note that some users reported that the shared construct will cause their Dr Racket to 'hang' or indefinitely run. 
+ -- Check this thread if you run into these issues. https://courses.edx.org/courses/course-v1:UBCx+HtC2x+2T2017/discussion/forum/#posts/5b85cbb0a52203097f001e5b
+ -- The starter file for this video is graphs-v2.rkt
+
+3. Part 2 walks through creating examples of cyclic graphs using an ASL construct called shared.
+ -- The starter file for this video is graphs-v2.rkt
+
+4. This video works through creating a template for the Room data definition using a worklist and a context-preserving accumulator.
+ -- The starter file for this video is graphs-v3.rkt
+
+5. This video introduces a simple graph problem and works through the solution.
+ -- The starter file for this video is graphs-v4.rkt
+
+Final Exam: Selfevaluation

@@ -1,0 +1,33 @@
+Learning Goals
+ - Be able to explain the inherent structure of interactive graphical programs.
+ - Be able to use the How to Design Worlds (HtDW) recipe to design interactive programs with atomic world state.
+ - Be able to read and write big-bang expressions.
+
+ HtDW recipe
+ 
+ 1. Domain analysis (use a piece of paper)
+    1. Sketch program scenarios (story board on a piece of paper)
+        - 2 or 3 images reflecting the different states of the program
+       
+          <----width--->
+      ^   ______________    ______________   ______________
+      |   |            |    |            |   |            |
+      |   |  catimage  |    |            |   |            |
+   height | ^o^        |    |(cat x) ^o^ |   |         ^o^|
+  (ctr y) |        mts |    |            |   |            |
+      |   |____________|    |____________|   |____________|
+      v
+
+    2. Identify constant information (label on scenario sketches)
+        width 
+        height
+        ctr-y: cat's y coordinate doesn't change
+        mts: (empty scene) background images
+        cat image
+
+    3. Identify changing information
+        cat x: cat's coordinate
+
+    4. Identify big-bang options
+        on-tick
+        to-draw

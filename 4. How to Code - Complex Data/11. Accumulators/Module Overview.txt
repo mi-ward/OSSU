@@ -1,0 +1,75 @@
+The rules we have been using to generate structural recursion templates are very powerful. They make it easy to write functions that traverse complex data collecting information at every place in that data. The power of these rules is highlighted by our ability to design abstract fold functions for recursive and mutually recursive types.
+
+But the structural recursion templates have one problem: while they make it easy for our functions to see each "place" in the structure once we get to it, they do not allow us to see two kinds of important contextual information. One has to do with where our function has already been in the traversal, and the other has to do with work remaining to be done once each recursive call to our function produces its result. To paraphrase the song, "we know where we are, but we don't know where we've been or where we still need to go".
+
+Accumulators allow us to solve these problems. There are three types of accumulators: context preserving, result so far and worklist. The latter two are used in different ways to make functions tail-recursive, which is important when we design recursive functions that traverse very large data. All three kinds of accumulators are supported by a few small additions to the HtDF recipe.
+
+The material in this module includes a defacto review of everything in the course so far. This review is part of the worklist accumulator videos. As a result, working through the videos and practice materials for this module will take approximately 9-10 hours of dedicated time to complete.
+
+Learning Goals
+Be able to identify when a function design requires the use of accumulator.
+Be able to work with the accumulator design recipe to design such functions.
+Understand and be able to explain the concepts of tail position, tail call and tail recursion.
+
+
+1. Following a structural recursion template to walk through arbitrary sized data means we always know where we are, 
+ -- but never know where we have been. 
+ -- This video sets up a problem we do not yet know how to solve: a function that does need to know where it has been.
+-- The starter file for this video is skip1-starter.rkt.
+
+2. An accumulator can be used to preserve information about where a recursive function has been.
+ -- The starter file for this video is skip1-v1.rkt
+
+3. You are asked to design a function that numbers a list of strings by inserting a number and a colon before each element of the list based on its position. So for example:
+ -- (number-list (list "first" "second" "third")) would produce (list "1: first" "2: second" "3: third")
+ -- Here is a partially completed design of this function
+ -- ;; (listof String) -> (listof String)
+ -- ;; append each string's position in the list to the front of the string to number the list
+ -- (check-expect (number-list empty) empty)
+ -- (check-expect (number-list (list "first" "second" "third")) 
+ --               (list "1: first" "2: second" "3: third"))
+ -- (define (number-list los) los)   ;stub
+
+4. This video sets up a simple context preserving accumulator problem for you to practice with.
+ -- The starter file for this video is skipn-starter.rkt
+ -- Be sure to work through skipn through to the template stage before moving on the the next video.
+
+5. This video works through the solution to the problem from Part 1.
+ -- The starter file for this video is skipn-v1.rkt
+
+6. This video introduces the concepts of tail position, call position and tail recursion.
+ -- The starter file for this video is sum-tr-starter.rkt
+
+7. Parts 1-7 of the worklist accumulators serve to review the accumulator module to date, 
+ -- introduce a second technique for making functions tail recursive, 
+ -- and in fact provide a good summary of the course thus far. These videos are long, 
+ --but they are worth working through in detail to get that practice and summary.
+ -- Part 1 sets up an HtDD problem that will support parts 2-7.
+ -- The starter file for this video is same-house-as-parent-v1.rkt
+
+ -- Before moving on to the next video, be sure to work through the design for a representation of wizard family trees. 
+ -- For each wizard, it should include their name, their house, and a list of their children. 
+
+8. The starter file for this video is same-house-as-parent-v2.rkt
+
+9. Part 3 works through our solution to the HtDF problem using a context preserving accumulator.
+ -- The starter file for this video is same-house-as-parent-v3.rkt
+
+10. This video sets up a second problem operating on the Wizard Data Definition, 
+ -- to count the number of wizards in a family tree. It also develops an initial solution, 
+ -- but that solution fails to be fully tail recursive. Worse yet, it does not seem to work.
+ -- The starter file for this video is same-house-as-parent-v4.rkt
+
+11. Part 2 shows how to use a worklist accumulator to make a function operating on an arbitrary-arity tree tail recursive. 
+ -- The key is to use a single worklist to hold the children that have not yet been visited.
+ -- The starter file for this video is same-house-as-parent-v5.rkt
+ 
+12. Part 3 begins to make the same-house-as-parent function tail recursive by carefully planning out the accumulators.
+ -- The starter file for this video is same-house-as-parent-v6.rkt
+
+13. Part 4 completes the coding from the careful plan for the accumulator progression. 
+ -- This code would have been difficult or impossible to write without following a systematic method that highlights 
+ -- how the different aspects of the solution come together: structural recursion, 
+ -- result so far accumulator, worklist accumulator, compound worklist entries, filtering behaviour, 
+ -- and details of this particular function.
+ -- The starter file for this video is same-house-as-parent-v7.rkt

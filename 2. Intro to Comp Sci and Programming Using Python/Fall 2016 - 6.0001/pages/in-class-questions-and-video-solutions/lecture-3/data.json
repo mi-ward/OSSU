@@ -1,0 +1,6 @@
+
+{
+  "title":"Lecture 3",
+  "content":" String Manipulations What does the code below print?\ns = \u0026#34;6.00 is 6.0001 and 6.0002\u0026#34;\rnew_str = \u0026#34;\u0026#34;\rnew_str += s[-1]\rnew_str += s[0]\rnew_str += s[4::30] new_str += s[13:10:-1]\rprint(new_str) \u0026nbsp;260000\u0026nbsp; close \u0026nbsp;26100\u0026nbsp; close \u0026nbsp;26 100\u0026nbsp; check \u0026nbsp;nothing, it will give an error\u0026nbsp; close \u0026nbsp;6.00 is 6.0001 and 6.0002\u0026nbsp; close Check \u0026emsp; Show Solution View video page Download video Download transcript For Loops with Strings How many times will the code below print \u0026ldquo;common letter\u0026rdquo;?\ns1 = \u0026#34;mit u rock\u0026#34;\rs2 = \u0026#34;i rule mit\u0026#34;\rif len(s1) == len(s2):\rfor char1 in s1:\rfor char2 in s2:\rif char1 == char2:\rprint(\u0026#34;common letter\u0026#34;)\rbreak \u0026nbsp;0\u0026nbsp; close \u0026nbsp;2\u0026nbsp; close \u0026nbsp;4\u0026nbsp; close \u0026nbsp;5\u0026nbsp; close \u0026nbsp;6\u0026nbsp; close \u0026nbsp;7\u0026nbsp; check \u0026nbsp;8\u0026nbsp; close \u0026nbsp;10\u0026nbsp; close Check \u0026emsp; Show Solution View video page Download video Download transcript "}
+
+

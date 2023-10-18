@@ -1,0 +1,5 @@
+#ignore all videos for courses
+videos/
+
+#ignore DS_store
+.DS_Store
