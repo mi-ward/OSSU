@@ -1,19 +1,16 @@
 ;; The first three lines of this file were inserted by DrRacket. They record metadata
 ;; about the language level of this file in a form that our tools can easily process.
 #reader(lib "htdp-intermediate-lambda-reader.ss" "lang")((modname exercise_275) (read-case-sensitive #t) (teachpacks ()) (htdp-settings #(#t constructor repeating-decimal #f #t none #f () #f)))
-;Exercise 275
 (require 2htdp/batch-io)
 
-(define LETTERS
-  (explode "abcdefghijklmnopqrstuvwxyz"))
-
+;Exercise 275
+(define LETTERS (explode "abcdefghijklmnopqrstuvwxyz"))
 (define LOCATION "/usr/share/dict/words")
 (define AS-List (read-lines LOCATION))
-
-(define-struct lc [letter count])
-
 (define DICT1 (list "apple" "banana" "blueberry" "fruit"
                     "kiwi" "lemon" "orange" "pineapple" "strawberry"))
+
+(define-struct lc [letter count])
 
 ;Dictionary -> LC
 ; Consume a dictionary and produce an LC
