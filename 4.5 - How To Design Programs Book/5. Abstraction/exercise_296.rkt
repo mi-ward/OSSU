@@ -67,3 +67,4 @@
 (define (distance-between x y p)
   (sqrt (+ (sqr (- x (posn-x p))) (sqr (- y (posn-y p))))))
 
+my-animate
