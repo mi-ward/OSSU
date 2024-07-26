@@ -1,0 +1,55 @@
+<!doctype html><html lang="en-us"><head>
+<script data-ot-ignore type="text/javascript" class="optanon-category-C0001">
+    (new MutationObserver(function(mutationRecords) {
+        Array.prototype.forEach.call(mutationRecords, function(mutationRecord) {
+            Array.prototype.forEach.call(mutationRecord.addedNodes, function(addedNode) {
+                if (!addedNode || !addedNode.tagName || "script" !== addedNode.tagName.toLowerCase()) {
+                    return;
+                }
+
+                var isWebpackChunk = !addedNode.hasAttribute('data-ot-ignore') && addedNode.hasAttribute('data-webpack');
+                if (isWebpackChunk) {
+                    addedNode.setAttributeNode(document.createAttribute('data-ot-ignore'));
+                    addedNode.removeAttribute("class");
+                    addedNode.setAttribute("class", "optanon-category-C0001");
+                    addedNode.removeAttribute("type");
+                }
+
+                var isGTM = addedNode.src && addedNode.src.startsWith('https://www.googletagmanager.com/');
+                if (!isGTM) {
+                    return;
+                }
+
+                var isPlainText = addedNode.getAttribute('type') === 'text/plain';
+                if (!isPlainText) {
+                    return;
+                }
+
+                var replacement = document.createElement('script');
+                replacement.setAttributeNode(document.createAttribute('data-ot-ignore'));
+                replacement.setAttribute('class', 'optanon-category-C0001');
+                replacement.setAttribute('src', addedNode.src, true);
+                addedNode.remove();
+                document.head.appendChild(replacement)
+
+            });
+        })
+    })).observe(document.documentElement || document.body, {
+        childList: !0,
+        subtree: !0,
+        attributes: !0,
+        attributeFilter: ["src"]
+    });
+</script>
+<script type="text/javascript" src="https://cdn.cookielaw.org/consent/fa169e97-be64-4cc1-bad3-9534590f9a30/OtAutoBlock.js" ></script>
+<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" charset="UTF-8" data-domain-script="fa169e97-be64-4cc1-bad3-9534590f9a30" ></script>
+<script type="text/javascript">
+var optanonLoaded = false;
+function OptanonWrapper(){
+  if (!optanonLoaded) {
+    var optanonLoadedEvent = new CustomEvent('OptanonLoaded');
+    window.dispatchEvent(optanonLoadedEvent);
+    optanonLoaded = true;
+  }
+};
+</script><title>Course | edX</title><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="shortcut icon" href="https://edx-cdn.org/v3/prod/favicon.ico" type="image/x-icon"/><script src="https://www.edx.org/optimizelyjs/27831640741.js"></script><script defer="defer" src="/runtime.da184d6c650fd7e84905.js" data-ot-ignore="" class="optanon-category-C0001"></script><script defer="defer" src="/680.63bdff1d456e4ac57330.js" data-ot-ignore="" class="optanon-category-C0001"></script><script defer="defer" src="/app.b148d3e2f9b6b1115fd7.js" data-ot-ignore="" class="optanon-category-C0001"></script><link href="/680.63bdff1d456e4ac57330.css" rel="stylesheet"><link href="/app.b148d3e2f9b6b1115fd7.css" rel="stylesheet"><style>.edx-cookie-banner-wrapper { display: none; }</style></head><body><div id="root"></div></body></html>

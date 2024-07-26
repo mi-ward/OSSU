@@ -16,7 +16,7 @@
           (define (monthly-interest amount interest)
             (+ amount (* amount interest))))
     (double-amount-local amount 0)))
-    
+     
 
 (check-expect (double-amount 100 0.01) 70)
 (check-expect (double-amount 100 0.02) 36)
