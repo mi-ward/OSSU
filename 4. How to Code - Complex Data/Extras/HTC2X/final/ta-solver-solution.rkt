@@ -223,17 +223,17 @@
                (make-assignment RAMEN 2)))
 (check-expect (solve NOODLE-TAs (list 1 2 3 4 5)) false)
 
-;(check-expect (solve QUIZ-TAs-1
-;                     (list 1 2 3 4 5 6 7 8 9 10 11 12))
-;              false)
+(check-expect (solve QUIZ-TAs-1
+                     (list 1 2 3 4 5 6 7 8 9 10 11 12))
+              false)
 
-;(check-expect (solve QUIZ-TAs-2
-;                     (list 1 2 3 4 5 6 7 8 9 10 11 12))
-;              false)
+(check-expect (solve QUIZ-TAs-2
+                     (list 1 2 3 4 5 6 7 8 9 10 11 12))
+              false)
 
-;(check-expect (solve QUIZ-TAs-3
-;                     (list 1 2 3 4 5 6 7 8 9 10 11 12))
-;              true)
+(check-expect (solve QUIZ-TAs-3
+                     (list 1 2 3 4 5 6 7 8 9 10 11 12))
+              true)
 ;(define (solve tas slots) empty) ;stub
 
 (define (solve tas slots)
