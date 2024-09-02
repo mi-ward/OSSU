@@ -1,0 +1,14 @@
+use "homework1.sml";
+
+(* True test *)
+is_older((1988,3,25),(1989,5,24));
+
+(* == test *)
+is_older((1988,3,25),(1988,3,25));
+
+(* false test *)
+is_older((1989, 5, 24), (1988,3,25));
+
+
+	
+    

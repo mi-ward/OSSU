@@ -1,0 +1,33 @@
+(* year, month (1-12), day (1-31) *)
+
+(*  Write a function is_older that takes two dates and evaluates to true or false.
+    It evaluates to true if the first argument is a date that comes before the
+    second argument. (If the two dates are the same, the result is false.) *)
+
+fun is_older(date1 : int*int*int, date2 : int*int*int) =
+    let val year_is_less  = (#1 date1) < (#1 date2)
+	val month_is_less = (#2 date1) < (#2 date2)
+	val day_is_less   = (#3 date1) < (#3 date2)
+    in
+	if year_is_less
+	then year_is_less
+	else
+	    if month_is_less
+	    then (year_is_less andalso month_is_less)
+	    else
+		if day_is_less
+		then (year_is_less andalso month_is_less andalso day_is_less)
+		else false
+    end
+
+fun number_in_month(date_list : (int*int*int) list, month : int) =
+    if null date_list
+    then 0
+    else
+	if (#2 (hd date_list)) = month
+	then 1 + number_in_month((tl date_list), month)
+	else number_in_month((tl date_list), month)
+		   
+			 
+    
+    

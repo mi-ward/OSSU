@@ -1,0 +1,14 @@
+(* Programming Languages, Dan Grossman, Jan-Mar 2013 *)
+
+(* Section 1: Let Expressions to Avoid Repeated Computation *)
+
+(* badly named: evaluates to 0 on empty list *)
+fun bad_max (xs : int list) =
+    if null xs
+    then 0
+    else if null (tl xs)
+    then hd hs
+    else if hd xs > bad_max(t1 xs)
+    then hd xs
+    else bad_max(t1 xs)
+		

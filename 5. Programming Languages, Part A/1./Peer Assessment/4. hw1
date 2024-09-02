@@ -1,0 +1,71 @@
+(* Function to check which of two dates is older *)
+fun is_older((y1, m1, d1), (y2, m2, d2)) =
+  if y1 < y2 then true
+  else if y1 > y2 then false
+  else if m1 < m2 then true
+  else if m1 > m2 then false
+  else d1 < d2
+
+(* Function to count the number of dates in a given month *)
+fun number_in_month(dates, month) =
+  List.length (List.filter (fn (_, m, _) => m = month) dates)
+
+(* Function to count dates in a list of months *)
+fun number_in_months(dates, months) =
+  List.length (List.filter (fn (_, m, _) => List.exists (fn x => x = m) months) dates)
+
+(* Function to filter dates by a specific month *)
+fun dates_in_month(dates, month) =
+  List.filter (fn (_, m, _) => m = month) dates
+
+(* Function to filter dates by a list of months *)
+fun dates_in_months(dates, months) =
+  List.filter (fn (_, m, _) => List.exists (fn x => x = m) months) dates
+
+(* Function to get the nth element of a list *)
+fun get_nth(lst, n) =
+  List.nth(lst, n)
+
+(* Function to convert a date to a string *)
+val month_names = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+fun date_to_string (year, month, day) =
+  List.nth(month_names, month - 1) ^ " " ^ Int.toString(day) ^ ", " ^ Int.toString(year)
+
+(* Function to count the number of elements before reaching a sum *)
+fun number_before_reaching_sum(_, []) = 0
+  | number_before_reaching_sum(sum, x::xs) =
+    if x >= sum then 1 else 1 + number_before_reaching_sum(sum - x, xs)
+
+(* Function to find the month given a day in the year *)
+fun what_month day =
+  let
+    val days_in_months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+    fun aux(day, [], _) = 0
+      | aux(day, d::ds, month) =
+        if day <= d then month else aux(day - d, ds, month + 1)
+  in
+    aux(day, days_in_months, 1)
+  end
+
+(* Function to return a list of months for a range of days *)
+fun month_range(_, 0) = []
+  | month_range(start, count) =
+    let
+      val days_in_months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
+      fun aux(day, [], _) = []
+        | aux(day, d::ds, month) =
+          if day <= d then month::aux(1, d::ds, month)
+          else aux(day - d, ds, month + 1)
+    in
+      aux(start, days_in_months, 1) handle _ => []
+    end
+
+(* Function to find the oldest date *)
+fun oldest [] = NONE
+  | oldest lst =
+    let
+      fun min_date(d1 as (y1, m1, d1), d2 as (y2, m2, d2)) =
+        if is_older(d1, d2) then d1 else d2
+    in
+      SOME (List.foldl1 min_date lst)
+    end
