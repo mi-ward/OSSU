@@ -5,13 +5,18 @@
 
 ;; Be sure to put your homework file in the same folder as this test file.
 ;; Uncomment the line below and, if necessary, change the filename
-;;(require "hw5")
+(require "hw5.rkt")
 
 (require rackunit)
 
 (define tests
   (test-suite
    "Sample tests for Assignment 5"
+
+   (check-equal? (eval-exp (mlet "x" (int 1) (add (var "x") (int 1)))) (int 2) "mlet test")
+   ;(apair (int 1) (apair (int 2) (apair (int 3) (apair (int 2) (aunit))))) (int 4)
+
+   ;;----------------------------------------------------
    
    ;; check racketlist to mupllist with normal list
    (check-equal? (racketlist->mupllist (list (int 3) (int 4))) (apair (int 3) (apair (int 4) (aunit))) "racketlist->mupllist test")
@@ -19,14 +24,17 @@
    ;; check mupllist to racketlist with normal list
    (check-equal? (mupllist->racketlist (apair (int 3) (apair (int 4) (aunit)))) (list (int 3) (int 4)) "racketlist->mupllist test")
 
+
    ;; tests if ifgreater returns (int 2)
    (check-equal? (eval-exp (ifgreater (int 3) (int 4) (int 3) (int 2))) (int 2) "ifgreater test")
    
    ;; mlet test
    (check-equal? (eval-exp (mlet "x" (int 1) (add (int 5) (var "x")))) (int 6) "mlet test")
    
+   
    ;; call test
    (check-equal? (eval-exp (call (closure '() (fun #f "x" (add (var "x") (int 7)))) (int 1))) (int 8) "call test")
+   
    
    ;;snd test
    (check-equal? (eval-exp (snd (apair (int 1) (int 2)))) (int 2) "snd test")
@@ -39,19 +47,24 @@
    
    ;; mlet* test
    (check-equal? (eval-exp (mlet* (list (cons "x" (int 10))) (var "x"))) (int 10) "mlet* test")
+   (check-equal? (eval-exp (mlet* (list (cons "x" (int 10)) (cons "y" (int 20))) (add (var "x") (var "y")))) (int 30) "mlet* test")
    
    ;; ifeq test
    (check-equal? (eval-exp (ifeq (int 1) (int 2) (int 3) (int 4))) (int 4) "ifeq test")
+   (check-equal? (eval-exp (ifeq (int 1) (int 1) (int 3) (int 4))) (int 3) "ifeq test2")
+   (check-equal? (eval-exp (ifeq (add (int 1) (int 2)) (add (int 0) (int 3)) (int 10) (int 2))) (int 10) "ifeq test3")
    
    ;; mupl-map test
-   (check-equal? (eval-exp (call (call mupl-map (fun #f "x" (add (var "x") (int 7)))) (apair (int 1) (aunit)))) 
+   (check-equal? (eval-exp (call (call mupl-map
+                                       (fun #f "x" (add (var "x") (int 7))))
+                                 (apair (int 1) (aunit)))) 
                  (apair (int 8) (aunit)) "mupl-map test")
-   
+
    ;; problems 1, 2, and 4 combined test
-   (check-equal? (mupllist->racketlist
-   (eval-exp (call (call mupl-mapAddN (int 7))
-                   (racketlist->mupllist 
-                    (list (int 3) (int 4) (int 9)))))) (list (int 10) (int 11) (int 16)) "combined test")
+      (check-equal? (mupllist->racketlist
+      (eval-exp (call (call mupl-mapAddN (int 7))
+                      (racketlist->mupllist 
+                       (list (int 3) (int 4) (int 9)))))) (list (int 10) (int 11) (int 16)) "combined test")
    
    ))
 

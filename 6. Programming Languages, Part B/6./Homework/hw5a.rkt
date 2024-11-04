@@ -112,18 +112,17 @@
 
 ;; Problem 4
 
-(define mupl-map
-  (fun '() "map"
-       (fun "r" "x"
-            (ifaunit (var "x")
-                     (aunit)
-                     (apair (call (var "map") (fst (var "x"))) (call (var "r") (snd (var "x"))))))))
+(define mupl-map (fun #f "map" (fun "f2" "lst"
+                                    (ifaunit (var "lst")
+                                             (aunit)
+                                             (apair (call (var "map") (fst (var "lst"))) (call (var "f2") (snd (var "lst"))))))))
 
-(define mupl-mapAddN 
-  (mlet "map" mupl-map (fun '() "x" (call (var "map") (fun #f "y" (add (var "x") (var "y")))))))
-        
+(define mupl-mapAddN
+  (mlet "map" mupl-map
+        (fun #f "i"
+             (fun #f "lst"
+                  (call (call (var "map") (fun #f "x" (add (var "x") (var "i")))) (var "lst"))))))
 
-        ;(call (var "map") (fun '() "n" (add (var "n"))))))
 
 ;; Challenge Problem
 
